@@ -1,0 +1,57 @@
+/* BEGIN CONFIG MAIN */
+*{font-family:'Fjalla One', sans-serif;}
+body {margin:0px; padding:0px;background-repeat:no-repeat;background-size: cover;}
+/* END CONFIG MAIN */
+
+/* BEGIN NAVBAR */
+.navbar-brand {font-size: 24px;}
+.navbar-container {padding: 20px 0 20px 0;}
+.navbar.navbar-fixed-top.fixed-theme{background-color: #222;border-color: #080808;box-shadow: 0 0 5px rgba(0,0,0,.8);}
+.navbar-brand.fixed-theme{font-size: 18px;}
+.navbar-container.fixed-theme{padding: 0;}
+.navbar-brand.fixed-theme,.navbar-container.fixed-theme,.navbar.navbar-fixed-top.fixed-theme,.navbar-brand,.navbar-container{transition: 0.8s;-webkit-transition:  0.8s;}
+#header{background-color: rgba(226, 54, 54, 0.9);position: relative;margin:0px;}
+.navbar-nav li a{color:#444;font-weight: 700;font-size:1.3em;transition-duration: 0.5s;}
+.navbar-nav li a:hover{text-decoration:none;background-color:transparent; font-size:2em;}
+#brand{color:#444;font-size: 2.5em;}
+/* END NAVBAR */
+
+/* BEGIN CONTAINER HOME */
+#entrada{position: absolute;top: 35%;left: 25%;text-align:center;color: #FFFAF5;}
+h1{font-size: 15em;font-weight: 800;text-shadow: 3px 3px 0 #444, -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444, 6px 7px 2px #444;}
+/* END CONTAINER HOME*/
+
+/* BEGIN FOOTER */
+footer{background-color: #504a4a;}
+.social:hover{-webkit-transform: scale(1.1);-moz-transform: scale(1.1);-o-transform: scale(1.1);}
+.social{-webkit-transform: scale(0.8);-moz-transform: scale(0.8);-o-transform: scale(0.8);-webkit-transition-duration: 0.5s;-moz-transition-duration: 0.5s;-o-transition-duration: 0.5s;}
+#social-fb:hover{color: #3B5998;}
+#social-tw:hover{color: #4099FF;}
+#social-gp:hover{color: #d34836;}
+#social-em:hover {color: #f39c12;}
+.text-center{height: 100px;padding-top: 25px;}
+.text-center a i{color: #e44949;}
+/*END FOOTER */
+
+/* BEGIN CONTAINER QUEM SOMOS */
+.main{width: 100%;margin: 0px;padding: 0px;}
+#principal{background-image:url('../img/heroi.png');height: 700px;background-repeat: no-repeat;background-size: 100% 700px;}
+#principal > p {text-align: center;position: relative;top: 50%;font-size: 5em;font-weight: 900;color: #d6cdcd;}
+#descricao{background-color: #504a4a;color: #d6cdcd;padding: 40px;}
+.titulo{text-align: center;font-size: 2em;}
+.text{font-size: 1.5em;text-align: center;}
+/* END CONTAINER QUEM SOMOS */
+/* BEGIN CARD */
+h5 {font-size: 1.28571429em;font-weight: 700;line-height: 1.2857em;margin: 0;}
+.card {font-size: 1em;text-align:center;overflow: hidden;padding: 0;margin:1%;border: none;border-radius: .28571429rem;box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;}
+.card-block {font-size: 1em;position: relative;margin: 0;padding: 1em;border: none;border-top: 1px solid rgba(34, 36, 38, .1);box-shadow: none;}
+.card-img-top {display: block;width: 50%;position: relative;left: 25%;margin: 5px;}
+.text-bold {font-weight: 700;}
+.mt-4{padding: 0px;}
+.row{margin-left: 0px !important;margin-right: 0px !important;}
+/* END CARD */
+
+/* BEGIN CONTAINER COMPRAMOS SUA HQ */
+.main{width: 100%;margin: 0px;padding: 0px;}
+#tabela{height: 451px;background-repeat: no-repeat;background-size: 100% 700px;}
+/* END CONTAINER COMPRAMOS SUA HQ */
